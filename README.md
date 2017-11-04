@@ -9,10 +9,11 @@
  	* POST: https://social-network-api.herokuapp.com/new
 2. User can login into their profile by sending POST request with (name,password) body
 	* POST: https://social-network-api.herokuapp.com/login
-	| KEY  	| VALUE |
-	| ------ | -----|
-	|username| kesse|
-	|password| kesse|
+	
+	| KEY  	 | VALUE 
+	| ------ | -----
+	|username| kesse
+	|password| kesse
 	
 3. User can create public status by sending POST request with (status) body
 	* POST: https://social-network-api.herokuapp.com/mystatus
