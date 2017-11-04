@@ -7,6 +7,7 @@
 
 1. User can create new profile by sending POST request with (name,age,password,email,profile Picture url) body
  	* POST: https://social-network-api.herokuapp.com/new
+	
 2. User can login into their profile by sending POST request with (name,password) body
 	* POST: https://social-network-api.herokuapp.com/login
 	
