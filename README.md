@@ -5,10 +5,15 @@
 
 #### USER STORY
 
-1. User can create new profile by sending POST request with (name,age,password,email,profile picture url) body
+1. User can create new profile by sending POST request with (name,age,password,email,profile Picture url) body
  	* POST: https://social-network-api.herokuapp.com/new
 2. User can login into their profile by sending POST request with (name,password) body
 	* POST: https://social-network-api.herokuapp.com/login
+	| KEY  	| VALUE |
+	| ------ | -----|
+	|username| kesse|
+	|password| kesse|
+	
 3. User can create public status by sending POST request with (status) body
 	* POST: https://social-network-api.herokuapp.com/mystatus
 4. User can view all status by sending GET request
